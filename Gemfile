@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby File.read(".ruby-version").strip
+
 gem 'govuk_schemas', '~> 0.1'
 gem 'sinatra', '~> 1.4'
 gem 'http', '~> 2.0'
